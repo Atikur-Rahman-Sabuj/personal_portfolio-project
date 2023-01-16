@@ -14,3 +14,11 @@ or run via VSCode debugger
 ### Add new app
 
 `python manage.py startapp {appname}`
+
+### Database Migration
+
+After adding or updating model
+
+Create migration `python manage.py makemigrations`
+
+Apply migration `python manage.py migrate`
